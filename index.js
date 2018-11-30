@@ -12,4 +12,4 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "/public/html/Home.html"));
 });
 
-app.listen(8080, () => { console.log("Ready to go!"); });
+app.listen(8000, () => { console.log("Ready to go!"); });
