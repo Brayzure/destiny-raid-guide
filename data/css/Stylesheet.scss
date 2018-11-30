@@ -1,0 +1,30 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    padding: 4px 0px;
+}
+
+.dropdown {
+    margin: 10px 0px;
+
+    &>div {
+        padding: 10px;
+    
+        &:nth-child(1) {
+            border: 1px solid black;
+        }
+        
+        &:nth-child(2) {
+            margin: 5px 0px;
+            border-left: 5px solid rgb(0, 132, 155);
+            display: none;
+        }
+    }
+}
